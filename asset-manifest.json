@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/dpk/static/css/main.f77d7a38.chunk.css",
+    "main.js": "/dpk/static/js/main.66efadb4.chunk.js",
+    "main.js.map": "/dpk/static/js/main.66efadb4.chunk.js.map",
+    "runtime-main.js": "/dpk/static/js/runtime-main.d3eef330.js",
+    "runtime-main.js.map": "/dpk/static/js/runtime-main.d3eef330.js.map",
+    "static/js/2.9a2180c5.chunk.js": "/dpk/static/js/2.9a2180c5.chunk.js",
+    "static/js/2.9a2180c5.chunk.js.map": "/dpk/static/js/2.9a2180c5.chunk.js.map",
+    "index.html": "/dpk/index.html",
+    "precache-manifest.dee9123905edd5d5fe3c4be21adef59a.js": "/dpk/precache-manifest.dee9123905edd5d5fe3c4be21adef59a.js",
+    "service-worker.js": "/dpk/service-worker.js",
+    "static/css/main.f77d7a38.chunk.css.map": "/dpk/static/css/main.f77d7a38.chunk.css.map",
+    "static/js/2.9a2180c5.chunk.js.LICENSE.txt": "/dpk/static/js/2.9a2180c5.chunk.js.LICENSE.txt",
+    "static/media/sad-icon.png": "/dpk/static/media/sad-icon.b88924d5.png",
+    "static/media/your photo.png": "/dpk/static/media/your photo.b9d7d448.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d3eef330.js",
+    "static/js/2.9a2180c5.chunk.js",
+    "static/css/main.f77d7a38.chunk.css",
+    "static/js/main.66efadb4.chunk.js"
+  ]
+}
