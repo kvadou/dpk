@@ -18,21 +18,16 @@ export const socialMediaLinks = {
 	linkedin: 'https://www.linkedin.com/in/dougkvamme/',
 	email: 'dougkvamme@gmail.com',
 	facebook: 'https://www.facebook.com/DPKlol/',
-	twitter: "https://twitter.com/DougKvamme",
+	twitter: 'https://twitter.com/DougKvamme',
 	instagram: "https://www.instagram.com/dpkalltheway/",
 	medium: '',
 	stackoverflow: ''
 };
 
 export const skills = {
-	title: emoji("I Can Do ⚡"),
-	subTitle: "Technical skills",
+	title: emoji("Technical Skills"),
+	subTitle: "",
 	describeSkills: [
-		emoji("✔ describe first"),
-		emoji("✔ describe second"),
-		emoji("✔ describe third"),
-		emoji("✔ describe forth"),
-		emoji("✔ describe fifth"),
 	],
 	// IMPORTANT
 	// You need to find className for font-awesome icon
@@ -51,46 +46,41 @@ export const experience = {
 	title: "Work Experience",
 	lists: [
 		{
-			date: "2018.03~",
-			company: "Google",
-			role: "Front-End Developer",
+			date: "2022 - present",
+			company: "Meta",
+			role: "Leadership Recruiter",
 		},
 		{
-			date: "test",
-			company: "test",
-			role: "test",
+			date: "2021 - 2022",
+			company: "Electric",
+			role: "Senior Talent Acquisition Partner",
 		},
 		{
-			date: "test",
-			company: "test",
-			role: "test",
+			date: "2017 - 2021",
+			company: "Nerdery",
+			role: "Recruiter",
 		},
 		{
-			date: "test",
-			company: "test",
-			role: "test",
+			date: "2014 - 2017",
+			company: "Robert Half Technology",
+			role: "Recruiting Manager",
 		},
-		{
-			date: "test",
-			company: "test",
-			role: "test",
-		}
 	],
 	view: true
 }
 
 export const openSourceProjects = {
 	title: emoji("Open Source Projects 💻"),
-	view: true
+	view: false
 }
 
 export const projects = {
 	title: emoji("Projects 💻"),
-	subTitle: "subtitle for projects",
+	subTitle: "",
 	lists: [
 		{
 			title: "Project1",
-			desc: "very very very very very very very very very very very very very very long very long description for clamp testing",
+			desc: "project description",
 			url: "#"
 		},
 		{
@@ -103,21 +93,31 @@ export const projects = {
 }
 
 export const achievements = {
-	title: emoji("Achievements And Certifications 🏆"),
-	subTitle: "subtitle for achievement",
+	title: emoji("Certifications & Licenses 🏆"),
+	subTitle: "",
 	lists: [
 		{
-			img: require("./assets/sad-icon.png"),
-			alt: "I'm sad..",
-			title: "There is no Achievement...😥",
-			desc: "I'll try harder!"
+			img: require("./assets/cert.png"),
+			alt: "UMN Certification",
+			title: "Full Stack Web Development Certificate",
+			url: "https://www.credly.com/badges/75fca183-71bb-46d9-8def-3f8b96236567?source=linked_in_profile",
+			desc: "The earner understands the fundamentals of front-end and back-end coding for the web, from databases to deployment. The earner has explored technologies such as HTML5, CSS3, Javascript, Bootstrap, SQL, Git, and more."
 		},
 		{
-			img: require("./assets/sad-icon.png"),
-			alt: "I'm sad..",
-			title: "There is no Certification...😥",
-			desc: "I'll try harder!"
+			img: require("./assets/coursera_logo.jpeg"),
+			alt: "Coursera Certificate",
+			title: "Introduction to Front End Development",
+			url: "https://www.coursera.org/account/accomplishments/certificate/GY9TG3EKN3J6",
+			desc: "Learn how to code and build interactive web pages using HTML5, CSS and JavaScript. Create a responsive website using HTML to structure content, CSS to handle visual style, and JavaScript to develop interactive experiences. Learn to use React in relation to Javascript libraries and frameworks."
 		},
+		{
+			img: require("./assets/linkedin.jpeg"),
+			alt: "LinkedIn Certificate",
+			title: "JavaScript Essential Training",
+			url: "https://www.linkedin.com/learning/certificates/9bc274a0107035e13f8c5456606a811d28698ad3fc0077edffa8d79e8a693fce?accountId=2128073&u=2128073&success=true&authUUID=OohZ7U8nTBizwWxVeBuE0A%3D%3D",
+			desc: "This course helps you build your understanding of JavaScript piece by piece, from core principles like variables, data types, conditionals, and functions through advanced topics including loops, and DOM scripting."
+		},
+
 	],
 	view: true
 };
@@ -137,12 +137,12 @@ export const blogs = {
 			url: "#"
 		},
 	],
-	view: true
+	view: false
 }
 
 export const contactInfo = {
 	title: "Contact To Me! 📞",
-	subTitle: "subtitle for contact",
-	introduce: emoji("your introduce❤"),
+	subTitle: "734-353-9743",
+	introduce: emoji("dougkvamme@gmail.com"),
 	view: true
 }
