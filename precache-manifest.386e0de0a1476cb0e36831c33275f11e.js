@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b0b2d2673319e580772f65e9f48d6b46",
+    "revision": "ec9f8726901a76da46bcae0424e387c0",
     "url": "/dpk/index.html"
   },
   {
-    "revision": "323824ee3bc2f5c78550",
+    "revision": "eff18c372e6f9406f252",
     "url": "/dpk/static/css/main.f77d7a38.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dpk/static/js/2.9a2180c5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "323824ee3bc2f5c78550",
-    "url": "/dpk/static/js/main.66efadb4.chunk.js"
+    "revision": "eff18c372e6f9406f252",
+    "url": "/dpk/static/js/main.edea5761.chunk.js"
   },
   {
     "revision": "354c8b7b32c45d31e087",
@@ -28,7 +28,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dpk/static/media/sad-icon.b88924d5.png"
   },
   {
-    "revision": "b9d7d448a09d6aacb45d21aab2c6fd53",
-    "url": "/dpk/static/media/your photo.b9d7d448.png"
+    "revision": "a6353c8c6f8909be85fe0caec6605d04",
+    "url": "/dpk/static/media/your photo.a6353c8c.png"
   }
 ]);
