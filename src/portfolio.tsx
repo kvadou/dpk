@@ -1,11 +1,11 @@
 import emoji from 'react-easy-emoji';
 
 export const greeting = {
-	username: 'Username',
-	title: 'Hello I\'m Username',
-	subTitle: emoji("subtitle ❤"),
-	role: "Your role",
-	resumeLink: "Your resume link... google drive or something else",
+	username: 'kvadou',
+	title: 'Hi I\'m Doug',
+	subTitle: emoji,
+	role: "Software Developer, Recruiter",
+	resumeLink: "https://docs.google.com/document/d/1w1vD7_dsPfI6Yv5xqedc6U9l4X5-XDcQs_FbdALpnew/edit?usp=sharing",
 	// IMPORTANT
 	// If you don't want to show this, change view to false. DO NOT DELETE!
 	view: true
@@ -14,19 +14,19 @@ export const greeting = {
 export const socialMediaLinks = {
 	// IMPORTANT
 	// if you don't have, change value to blank or false!! DO NOT DELETE!
-	github: 'Your github link',
-	linkedin: 'Your linkedin link',
-	email: 'your email link',
-	facebook: 'Your facebook link',
-	twitter: "Your twitter link",
-	instagram: "Your instagram link",
-	medium: 'Your medium link',
-	stackoverflow: 'Your stackoverflow link'
+	github: 'https://github.com/kvadou',
+	linkedin: 'https://www.linkedin.com/in/dougkvamme/',
+	email: 'dougkvamme@gmail.com',
+	facebook: 'https://www.facebook.com/DPKlol/',
+	twitter: "https://twitter.com/DougKvamme",
+	instagram: "https://www.instagram.com/dpkalltheway/",
+	medium: '',
+	stackoverflow: ''
 };
 
 export const skills = {
 	title: emoji("I Can Do ⚡"),
-	subTitle: "subtitle for skill",
+	subTitle: "Technical skills",
 	describeSkills: [
 		emoji("✔ describe first"),
 		emoji("✔ describe second"),
@@ -38,12 +38,11 @@ export const skills = {
 	// You need to find className for font-awesome icon
 	// Go to https://fontawesome.com/ and search icon
 	lists: [
-		{fontAwesome: "fab fa-html5", text: "HTML5", proficiency: 80},
-		{fontAwesome: "fab fa-css3-alt", text: "CSS3", proficiency: 70},
+		{fontAwesome: "fab fa-html5", text: "HTML5", proficiency: 90},
+		{fontAwesome: "fab fa-css3-alt", text: "CSS3", proficiency: 80},
 		{fontAwesome: "fab fa-js", text: "JS", proficiency: 70},
-		{fontAwesome: "fab fa-sass", text: "Sass", proficiency: 30},
-		{fontAwesome: "fab fa-react", text: "React", proficiency: 60},
-		{fontAwesome: "fab fa-aws", text: "AWS", proficiency: 20},
+		{fontAwesome: "fab fa-react", text: "React", proficiency: 70},
+		{fontAwesome: "fab fa-node-js", text: "Node", proficiency: 70},
 	],
 	view: true
 };
