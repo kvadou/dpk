@@ -13,7 +13,10 @@ function Hello() {
 				<div className="wrapper">
 					<div className="text-title">
 						{greeting.title}&nbsp;
-						<span className="hello-emoji">👋</span>
+						<div className="hello-bitmoji">
+                    <img src={require("../../assets/bitmoji_hi.png")} alt="bitmoji" />
+                </div>
+
 					</div>
 					<div className="role">
 						<span>{greeting.role}</span>
