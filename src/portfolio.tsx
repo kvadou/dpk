@@ -93,7 +93,7 @@ export const projects = {
 }
 
 export const achievements = {
-	title: emoji("Certifications & Licenses 🏆"),
+	title: emoji("Certifications"),
 	subTitle: "",
 	lists: [
 		{
@@ -141,7 +141,7 @@ export const blogs = {
 }
 
 export const contactInfo = {
-	title: "Contact To Me! 📞",
+	title: "Contact Me!",
 	subTitle: "734-353-9743",
 	introduce: emoji("dougkvamme@gmail.com"),
 	view: true
