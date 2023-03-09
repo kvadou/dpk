@@ -4,7 +4,7 @@ export const greeting = {
 	username: 'kvadou',
 	title: 'Hi I\'m Doug',
 	subTitle: emoji,
-	role: "Software Developer, Recruiter",
+	role: "Software Developer & Recruiter",
 	resumeLink: "https://docs.google.com/document/d/1w1vD7_dsPfI6Yv5xqedc6U9l4X5-XDcQs_FbdALpnew/edit?usp=sharing",
 	// IMPORTANT
 	// If you don't want to show this, change view to false. DO NOT DELETE!
@@ -89,7 +89,7 @@ export const projects = {
 			url: "#"
 		}
 	],
-	view: true
+	view: false
 }
 
 export const achievements = {
